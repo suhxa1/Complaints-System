@@ -1,0 +1,140 @@
+/* Background gradient */
+body {
+  background: linear-gradient(135deg, #e6e6e6, #e6e6e6);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container for content */
+main {
+  max-width: 90%;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.customerservice {
+  float:right;
+  flex: 1 1 40%; /* Image takes 40% of the width */
+  max-width: 50%; /* Full width */
+  height: 100%; /* Fill the height of the main container */
+  object-fit: cover; /* Ensures the image covers the entire height/width without distortion */
+  border-radius: 10px;
+}
+
+.chat{
+  float:right;
+  width:200px;
+}
+
+/* .header-return {
+  padding: 10px 20px;
+  background-color: #40534C;
+  color: #fff;
+  text-align: center;
+}
+
+.header-return nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-return nav ul li {
+  margin: 0 10px;
+}
+
+.header-return nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-return nav ul li a.active {
+  text-decoration: underline;
+} */
+
+section {
+  padding: 20px;
+}
+
+.h1r, .h2r {
+  color: #40534C;
+  font-size: 25px;
+}
+
+.label-complain {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: calc(100% - 800px);
+  padding: 10px;
+  margin-bottom: 7px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Container for the buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between; /* This will push buttons to the opposite sides */
+  align-items: center; /* Center the buttons vertically */
+  margin-top: 20px; /* Add some space above the buttons */
+  padding: 20px;
+  padding-left: 55px;
+}
+
+.btn-submit {
+  background-color: #40534C;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-return {
+  background-color: #40534C;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-return:hover {
+  background-color: #668d6c;
+}
+
+
+.btn-submit:hover {
+  background-color: #668d6c;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color:#40534C;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.questions{
+  padding: 30px;;
+}
+
+.error {
+  color: red;  /* Set the text color to red */
+  font-size: 14px;  /* Optional: Adjust the font size */
+  margin-top: 5px;  /* Optional: Add some space above the error message */
+}
